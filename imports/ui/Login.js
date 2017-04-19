@@ -34,7 +34,7 @@ export default class Login extends React.Component {
             <input type="password" name="password" ref="password" placeholder="Password"/>
             <button className="button">Login</button>
           </form>
-          <Link to='/signup'>Need an account</Link>
+          <Link to='/signup'>Need an account?</Link>
           <br/>
           {/* <button onClick={() => {
             Meteor.call('sendEmail', 'webpremier@gmail.com', 'trindadealex@gmail.com', 'Assunto do email', 'Texto do email', (err, res) => {
